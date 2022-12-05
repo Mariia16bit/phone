@@ -1,0 +1,113 @@
+.main{
+    border: 5px double gray;
+    border-radius: 30px;
+    min-width: 100px;
+    max-width: 250px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 5px;
+}
+.display{
+    display: flex;
+    height: 120px;
+    min-width: 100px;
+    max-width: 260px;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(201, 201, 201);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+    flex-basis: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.item:hover{
+    background-color: gray;
+}
+.item:last-child{
+    background-color: green;
+    background-color: rgb(84, 184, 84);
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-min{
+    font-size: 10px;
+}
+/* .item2{
+    background-color: rgb(84, 184, 84);
+    margin-left: auto;
+    margin-right: auto;
+} */
+.item2:hover{
+    background-color: green;
+}
+.item2 img{
+    width: 20px;
+}
+.container2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    min-width: 100px;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.container2 img{
+    width: 25px;
+    height: 25px;
+}
+.item3{
+    font-weight:bold;
+    font-size: small;
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.item1 p{
+    margin: 0;
+}
+.item1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+}
+.item1-min{
+font-size: 10px;
+text-align: center;
+color: #666;
+
+}
+.item1 img{
+    width: 20px;
+    height: 20px;
+    color: gray;
+    text-align: center;
+}
+.item3 img{
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
